@@ -70,10 +70,6 @@ set wildmode=list:longest
 " Wildmenu will ignore files these extensions
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-" colorscheme
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
-
 " it will excute the .vimrc file in your project for more customization
 set exrc
 
@@ -91,6 +87,14 @@ set undofile
 set termguicolors
 set noshowmode
 set signcolumn=yes
+
+" GruvBox --------------------------------------------------------- {{{
+
+" colorscheme
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
+
+" }}}
 
 
 " CtrlP ---------------------------- {{{
